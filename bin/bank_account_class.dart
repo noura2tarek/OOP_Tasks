@@ -1,10 +1,11 @@
 class BankAccount {
   //Fields
-  final String _accountId ;
+  final String _accountId;
+
   double _balance;
 
   // Constructors
-  // Constructor: initializes __accountId with given amount and initializes _balance = 0
+  // Constructor: initializes accountId with given amount and initializes balance with 0
   BankAccount(this._accountId) : _balance = 0;
 
   // Named constructor: initializes __accountId and sets _balance to the specified amount
