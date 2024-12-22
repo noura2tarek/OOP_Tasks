@@ -1,4 +1,4 @@
-OOP Task1: Bank Account Class  
+OOP Task1: Bank Account Class
 
 A dart project that contains a bank account class:
 The bank account class has two fields(accountId and balance), and three methods (deposit, withdraw,

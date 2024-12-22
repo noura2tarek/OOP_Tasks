@@ -24,13 +24,14 @@ class BankAccount {
       print('Error occurred-> insufficient balance');
     } else {
       balance -= amount;
+      print("Withdrawal of \$$amount successful.");
     }
   }
 
   // Display function
   void displayAccountInfo() {
     print('The Account Id is: $accountId');
-    print('The current Balance is: $balance');
+    print('The current Balance is: \$$balance');
     print('-------------------');
   }
 }
