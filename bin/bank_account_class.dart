@@ -4,11 +4,11 @@ class BankAccount {
   double balance = 0;
 
   // Constructors
-  BankAccount(this.accountId);
+  // Constructor: initializes accountID with given amount and initializes balance = 0
+  BankAccount(this.accountId) : balance = 0;
 
-  BankAccount.initializeBalance(this.accountId) {
-    balance = 0;
-  }
+  // Named constructor: initializes accountID and sets balance to the specified amount
+  BankAccount.withBalance(this.accountId, this.balance);
 
   // Functions
   // Deposit function
