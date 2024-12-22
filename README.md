@@ -26,5 +26,5 @@ The third scenario is creating `bankAccount2` object and depositing amount of 20
 account information includes an error message if exists.
 
 My code in bin/main.dart,   
-bank account class in bin/bank_account_class.dart
+Bank account class in bin/bank_account_class.dart
  
