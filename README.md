@@ -1,4 +1,4 @@
-OOP Task1: Bank Account Class
+OOP Task1: Bank Account Class  
 
 A dart project that contains a bank account class:
 The bank account class has two fields(accountId and balance), and three methods (deposit, withdraw,
@@ -25,6 +25,6 @@ The third scenario is creating `bankAccount2` object and depositing amount of 20
 3000, and finally printing the
 account information includes an error message if exists.
 
-My code in bin/main.dart
+My code in bin/main.dart,   
 bank account class in bin/bank_account_class.dart
  
