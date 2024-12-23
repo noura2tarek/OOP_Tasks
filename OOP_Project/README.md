@@ -10,8 +10,8 @@ Code explanation:
 1- First, i created the book and user classes.      
 2- Then i created the library class with help of them.    
 3- The scenario is tested by adding books and users to the library, then borrowing a book and return
-back using these users,
-and finally printing the library information.
+back using these users.  
+4- And finally printing the library information.
 
 My code in bin/main.dart,   
 Classes in bin/classes folder,     
