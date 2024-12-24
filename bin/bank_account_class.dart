@@ -1,4 +1,5 @@
 class BankAccount {
+
   //Fields
   final String _accountId;
 
@@ -15,6 +16,7 @@ class BankAccount {
   // Deposit function
   void deposit(double amount) {
     balance += amount;
+    print("Deposit of \$$amount is successful.");
   }
 
   // Withdraw function
@@ -22,17 +24,17 @@ class BankAccount {
     if (amount < 0) {
       print('Error occurred-> amount cannot be negative');
     } else if (amount > balance) {
-      print('Error occurred-> insufficient _balance');
+      print('Error occurred-> insufficient balance');
     } else {
       balance -= amount;
-      print("Withdrawal of \$$amount successful.");
+      print("Withdrawal of \$$amount is successful.");
     }
   }
 
   // Display function
   void displayAccountInfo() {
     print('The Account Id is: $_accountId');
-    print('The current _balance is: \$$balance');
+    print('The current balance is: \$$balance');
     print('-------------------');
   }
 }
