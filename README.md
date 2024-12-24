@@ -28,7 +28,7 @@ The third scenario using `bankAccount2` object and depositing amount of 1000, th
 account information includes an error message if exists.
 
 The fourth scenario is taking the amount to deposit or withdraw for bank account2 from the user
-and check for this value to deposit or withdraw.
+and check for this value.
 
 My code in bin/main.dart,   
 Bank account class in bin/bank_account_class.dart,   
