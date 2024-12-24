@@ -9,19 +9,19 @@ balance and accountId).
 Code explanation:
 1- First, i created the bank account class with all of its data. 
 2- Then i created two objects from the bank account class in main.dart file.
-3- The first account is created using the default constructor with zero balance and the second account
-is created using the named constructor with a balance of 2000.
+3- The first account is created using the named constructor with accountId 001 and initialize balance to zero
+and the second account is created using the default constructor with account id of 002 and balance of 2000.
 4- The scenario is tested by creating an account and depositing money, then withdraw money, and then
 printing the account information.
 
-The first scenario is creating `bankAccount` object and depositing amount of 1000, then withdraw
+The first scenario using `bankAccount` object and depositing amount of 1000, then withdraw
 500,
 and finally printing the account information.
 
 The second scenario is withdrawing (-500) from 'bankAccount', and then printing the
 account information includes an error message if exists.
 
-The third scenario is creating `bankAccount2` object and depositing amount of 1000, then withdraw
+The third scenario using `bankAccount2` object and depositing amount of 1000, then withdraw
 4000, and finally printing the
 account information includes an error message if exists.
 

@@ -2,8 +2,8 @@ import 'bank_account_class.dart';
 
 void main() {
   print('======== Start of the program =======');
-  BankAccount bankAccount = BankAccount('001');
-  BankAccount bankAccount2 = BankAccount.withBalance('002', 2000);
+  BankAccount bankAccount = BankAccount.withOptionalBalance('001');
+  BankAccount bankAccount2 = BankAccount('002', 2000);
 
   // Display initial accounts information
   print("Account 1 Info:");

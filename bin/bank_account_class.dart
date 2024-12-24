@@ -2,29 +2,29 @@ class BankAccount {
   //Fields
   final String _accountId;
 
-  double _balance;
+  double balance;
 
   // Constructors
-  // Constructor: initializes accountId with given amount and initializes balance with 0
-  BankAccount(this._accountId) : _balance = 0;
+  // Constructor: initializes accountId and balance with given amount when creating an object
+  BankAccount(this._accountId, this.balance);
 
-  // Named constructor: initializes __accountId and sets _balance to the specified amount
-  BankAccount.withBalance(this._accountId, this._balance);
+  // Named constructor: initializes accountId (required) and sets balance to the specified amount (optional), if no value sent the constructor will initialize balance to 0
+  BankAccount.withOptionalBalance(this._accountId, {this.balance = 0.0});
 
   // Functions
   // Deposit function
   void deposit(double amount) {
-    _balance += amount;
+    balance += amount;
   }
 
   // Withdraw function
   void withdraw(double amount) {
     if (amount < 0) {
       print('Error occurred-> amount cannot be negative');
-    } else if (amount > _balance) {
+    } else if (amount > balance) {
       print('Error occurred-> insufficient _balance');
     } else {
-      _balance -= amount;
+      balance -= amount;
       print("Withdrawal of \$$amount successful.");
     }
   }
@@ -32,7 +32,7 @@ class BankAccount {
   // Display function
   void displayAccountInfo() {
     print('The Account Id is: $_accountId');
-    print('The current _balance is: \$$_balance');
+    print('The current _balance is: \$$balance');
     print('-------------------');
   }
 }
